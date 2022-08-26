@@ -1,0 +1,51 @@
+*,*:before,*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+* {
+    /* border: 1px solid red */
+}
+
+/* Modify the background color */
+         
+.navbar-custom {
+    background-color: rgba(28, 146, 28, 0.062);
+}
+.navbar-brand {
+    color: black;
+}         
+
+.navbar-custom, .navbar-text {
+    color: green;
+}
+
+body {
+    background-color: rgb(184, 243, 184);
+    background-image: url("static/john-mccann-bm15OYOm-Gc-unsplash.jpg");
+    padding-top: 70px;
+}
+
+.text-primary {
+    color: pink
+}
+
+.container {
+    background-color: rgb(184, 243, 184);
+}
+.div {
+    background-color: rgb(184, 243, 184);
+}
+
+/* img {
+    max-height: 100%;
+    max-width: 100%;
+} */
+ul {
+    list-style-type: none;
+}
+.brlogo {
+    z-index: -1;
+    max-width: 50px;
+}
